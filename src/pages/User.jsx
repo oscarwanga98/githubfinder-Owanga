@@ -13,7 +13,7 @@ function User() {
 
     const params=useParams()
 
-    // eslint-disable-next-line to the line before.
+    
     useEffect(()=>{
         getUser(params.login)
         getRepos(params.login)
